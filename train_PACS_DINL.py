@@ -2,7 +2,7 @@ import torch
 import numpy as np
 from resnet import  wide_resnet50_2
 from de_resnet import de_wide_resnet50_2
-from dataset import PACSDataset, AugMixDataset
+from dataset import PACSDataset, AugMixDatasetPACS
 from torch.nn import functional as F
 import torchvision.transforms as transforms
 
@@ -88,9 +88,9 @@ def train(_class_):
                              std=std_train),
     ])
 
-    train_path = './PACS/train/photo/' +_class_ #update here
+    train_path = './PACS/train/photo/' +_class_ 
     train_data = PACSDataset(root=train_path, transform=resize_transform)
-    train_data = AugMixDataset(train_data, preprocess)
+    train_data = AugMixDatasetPACS(train_data, preprocess)
     train_dataloader = torch.utils.data.DataLoader(train_data, batch_size=batch_size, shuffle=True)
 
     encoder, bn = wide_resnet50_2(pretrained=True)
