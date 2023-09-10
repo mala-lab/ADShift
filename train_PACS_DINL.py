@@ -56,7 +56,7 @@ def loss_concat(a, b):
     return loss
 
 
-def train(_class_, random_seed):
+def train(_class_):
     print(_class_)
     epochs = 21
     learning_rate = 0.005
