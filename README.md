@@ -6,8 +6,8 @@ Create suitable conda environment:
 > conda env create -f environment.yml
 ## Dataset
 ### 1. Download dataset: <br>
--MNIST will be download by torchvision. <br>
--MNIST-M: https://www.kaggle.com/datasets/aquibiqbal/mnistm <br>
+-MNIST_grey: https://www.kaggle.com/datasets/jidhumohan/mnist-png <br>
+-MNIST_M: https://www.kaggle.com/datasets/aquibiqbal/mnistm <br>
 -PACS: https://www.kaggle.com/datasets/nickfratto/pacs-dataset <br>
 -MVTEC: https://www.mvtec.com/company/research/datasets/mvtec-ad <br>
 -CIFAR-10: https://www.kaggle.com/datasets/swaroopkml/cifar10-pngs-in-folders <br>
@@ -24,6 +24,7 @@ For example, to train DINL for PACS:
 > python train_PACS_DINL.py
 
 ## ATTA (For inference phase)
+Note: change the path to the normal image for each the dataset if needed. <br>
 To run the inference, please run the corresponding file inference_namedataset_ATTA.py <br>
 For example, to train ATTA for PACS:
 > python inference_PACS_ATTA.py
