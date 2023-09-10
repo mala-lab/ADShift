@@ -20,13 +20,19 @@ Please cite this paper if it helps your research:
 -CIFAR-10: https://www.kaggle.com/datasets/swaroopkml/cifar10-pngs-in-folders <br>
 
 ### Generate corrupted test set for MVTEC and CIFAR-10
-*Change the path of the original data and the generated data if needed.* <br>
+Note: Change the path of the original data and the generated data if needed. <br>
 
 To generate currupted data for MVTEC: 
 > python generate_corrupted_mvtec.py
 
 To generate currupted data for CIFAR-10: 
 > python generate_corrupted_cifar10.py
+## DINL (For training)
+Note: Update the path of the training data for each dataset if needed. <br>
+
+To train the model, please run the corresponding file train_namedataset_DINL.py <br>
+For example, to train DINL for PACS:
+> python train_PACS_DINL.py 
 
 
 
