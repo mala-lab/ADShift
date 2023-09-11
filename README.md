@@ -1,5 +1,5 @@
 # ICCV2023 - Anomaly Detection under Distribution Shift
-Official PyTorch implementation of the paper “Anomaly Detection under Distribution Shift”
+Official PyTorch implementation of the ICCV'23 paper “Anomaly Detection under Distribution Shift”
 
 ## Environment
 Create suitable conda environment:
@@ -18,20 +18,20 @@ To generate currupted data for MVTEC:
 
 To generate currupted data for CIFAR-10: 
 > python generate_corrupted_cifar10.py
-## DINL (For training phase)
+## DINL (for training phase)
 To train the model, please run the corresponding file train_namedataset_DINL.py <br>
 For example, to train DINL for PACS:
 > python train_PACS_DINL.py
 
-## ATTA (For inference phase)
-Note: change the path to the normal image for each the dataset if needed. <br>
+## ATTA (for inference phase)
+Note: change the path to the normal image for each dataset if needed. <br>
 To run the inference, please run the corresponding file inference_namedataset_ATTA.py <br>
 For example, to train ATTA for PACS:
 > python inference_PACS_ATTA.py
 
 ## Citation
 Please cite this paper if it helps your research:
-```markdown
+```bibtex
 @article{cao2023anomaly,
   title={Anomaly Detection under Distribution Shift},
   author={Cao, Tri and Zhu, Jiawen and Pang, Guansong},
