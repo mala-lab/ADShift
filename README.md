@@ -32,11 +32,13 @@ For example, to train ATTA for PACS:
 ## Citation
 Please cite this paper if it helps your research:
 ```bibtex
-@article{cao2023anomaly,
-  title={Anomaly Detection under Distribution Shift},
-  author={Cao, Tri and Zhu, Jiawen and Pang, Guansong},
-  journal={arXiv preprint arXiv:2303.13845},
-  year={2023}
+@InProceedings{Cao_2023_ICCV,
+    author    = {Cao, Tri and Zhu, Jiawen and Pang, Guansong},
+    title     = {Anomaly Detection Under Distribution Shift},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {6511-6523}
 }
 ```
 
