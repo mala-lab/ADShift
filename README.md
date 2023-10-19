@@ -5,7 +5,7 @@ Official PyTorch implementation of the ICCV'23 paper “Anomaly Detection under 
 Create suitable conda environment:
 > conda env create -f environment.yml
 ## Dataset
-### 1. Download dataset: <br>
+### 1. Download dataset: 
 -MNIST_grey: https://www.kaggle.com/datasets/jidhumohan/mnist-png <br>
 -MNIST_M: https://www.kaggle.com/datasets/aquibiqbal/mnistm <br>
 -PACS: https://www.kaggle.com/datasets/nickfratto/pacs-dataset <br>
