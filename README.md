@@ -26,7 +26,7 @@ For example, to train DINL for PACS:
 ## ATTA (for inference phase)
 Note: change the path to the normal image for each dataset if needed. <br>
 To run the inference, please run the corresponding file inference_namedataset_ATTA.py <br>
-For example, to train ATTA for PACS:
+For example, to use ATTA for PACS:
 > python inference_PACS_ATTA.py
 
 ## Citation
