@@ -30,6 +30,8 @@ For example, to use ATTA for PACS:
 > python inference_PACS_ATTA.py
 
 ## Citation
+The paper is available at [ICCV'23 proceedings](https://openaccess.thecvf.com//content/ICCV2023/html/Cao_Anomaly_Detection_Under_Distribution_Shift_ICCV_2023_paper.html) or [arXiv](https://arxiv.org/abs/2303.13845).
+
 Please cite this paper if it helps your research:
 ```bibtex
 @InProceedings{Cao_2023_ICCV,
